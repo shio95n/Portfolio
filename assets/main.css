@@ -649,6 +649,11 @@ footer a {
   .partion_line {
     padding: 20px;
   }
+  #modal_img {
+    max-width: 100%;
+    height: auto;
+    max-height: 90vh;
+  }
   #about {
     padding: 100px 0;
   }
