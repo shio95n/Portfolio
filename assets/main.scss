@@ -339,15 +339,26 @@ header {
   align-items: center;
   flex: 1;
   gap: 20px;
+
+  //チラシセクション
+//直下divは均等に配置
+&.sec__graphic {
+  > div {
+    flex: 1;
+  }
+}
 }
 
 .work_img_wrapper {
   border: 1px solid $sectionColor;
-  width: 700px;
-}
 
-.work_img_wrapper .banner {
-  width: none;
+
+  &.banner{
+    img {
+      width: 300px;
+      aspect-ratio: 1/1;
+    }
+  }
 }
 
   img {

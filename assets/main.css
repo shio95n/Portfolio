@@ -286,14 +286,16 @@ header .header_flex_child {
   flex: 1;
   gap: 20px;
 }
+.work_img_flex.sec__graphic > div {
+  flex: 1;
+}
 
 .work_img_wrapper {
   border: 1px solid #EBE4E6;
-  width: 700px;
 }
-
-.work_img_wrapper .banner {
-  width: none;
+.work_img_wrapper.banner img {
+  width: 300px;
+  aspect-ratio: 1/1;
 }
 
 img {
