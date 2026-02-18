@@ -373,6 +373,7 @@ header {
   border: 1px solid $sectionColor;
   box-shadow: 0, 2px 5px rgba(0, 0, 0, 0.3);
   z-index: 10;
+  width: 90%;
 }
 
 #modal_img {
@@ -767,10 +768,6 @@ footer {
 
   .partion_line {
     padding: 20px;
-  }
-
-  #modal {
-    width: 85%;
   }
 
   // ABOUT
