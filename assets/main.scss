@@ -381,13 +381,10 @@ header {
 }
 
 #modal_img {
-  max-width: 100%;
+  max-width: 600px;
+  object-fit: contain;
+  width: 80vw;
   height: auto;
-  max-height: 80vh;
-}
-
-.modal_bg {
-  height: 100%;
 }
 
 .close_btn {
