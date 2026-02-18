@@ -344,13 +344,17 @@ header {
 .work_img_wrapper {
   border: 1px solid $sectionColor;
   width: 700px;
+}
+
+.work_img_wrapper .banner {
+  width: none;
+}
 
   img {
     width: 100%;
     object-fit: cover;
     cursor: pointer;
   }
-}
 
 .work_link_flex {
   display: flex;
